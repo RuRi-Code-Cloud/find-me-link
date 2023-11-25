@@ -120,7 +120,7 @@ thead {
   color: #fffcfdbc;
 }
 .page-list {
-  height: cover;
+  height: 100vh;
   background-color: rgba(255, 255, 255, 0.179);
 }
 .page-list li {

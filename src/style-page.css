@@ -1,0 +1,51 @@
+body,
+.container,
+.row-container {
+  height: 100vh;
+}
+.row-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  font-size: 55px;
+  color: white;
+  font-family: "Courgette", "cursive";
+}
+.second-header {
+  color: white;
+  padding: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.473);
+  border-radius: 30px;
+  margin: 30px 50px;
+}
+.boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px;
+  grid-gap: 20px;
+}
+.box {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 10px 4px 2px,
+    rgba(0, 0, 0, 0.09) 10px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(255, 255, 255, 0.09) 0px 32px 16px;
+  background-color: rgba(240, 248, 255, 0.303);
+  font-size: 40px;
+  font-family: "Courgette", "cursive";
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  text-shadow: rgba(255, 255, 255, 0.671) 1px 0 10px;
+}
+
+.box a {
+  text-decoration: none;
+  color: white;
+}
+.box:hover {
+  text-shadow: rgba(255, 255, 255, 0.671) 10px 15px 10px;
+  font-size: 45px;
+  transition: ease-out 0.3s;
+}
