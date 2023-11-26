@@ -119,19 +119,7 @@ thead {
   border-top: 1px solid #fffcfd9b;
   color: #fffcfdbc;
 }
-.page-list {
-  height: 100vh;
-  background-color: rgba(255, 255, 255, 0.179);
-}
-.page-list li {
-  list-style: none;
-  padding: 5px;
-}
-.page-list li a,
-.page-list ul {
-  text-decoration: none;
-  color: #fffcfd9b;
-}
+
 .header-name {
   font-family: "Courgette", "cursive";
   color: #fffcfd9b;
@@ -160,46 +148,6 @@ thead {
   margin: 0 0 150px 50px;
 }
 
-strong {
-  font-size: 25px;
-  font-family: "Courgette", "cursive";
-}
-li {
-  font-size: 20px;
-  background-color: #3e346f20;
-  margin: 10px;
-  border-radius: 30px;
-}
-li:hover {
-  text-shadow: rgb(255, 255, 255) 1px 0 10px;
-  box-shadow: rgba(255, 254, 254, 0.396) 0px 50px 100px -20px,
-    rgba(255, 255, 255, 0.467) 0px 30px 60px -30px,
-    rgba(254, 255, 255, 0.499) 0px -2px 6px 0px inset;
-}
-ul {
-  padding-left: 0;
-  text-align: center;
-}
-a .home {
-  border: 1px solid rgb(255, 254, 254);
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-a .home:hover {
-  width: 60px;
-  transition: 0.5s;
-}
-.contact:hover {
-  width: 70px;
-  transition: 0.5s;
-}
-.contact {
-  display: block;
-  margin: 0 auto;
-}
 label {
   color: #eaf5fc;
   margin: 5px;
