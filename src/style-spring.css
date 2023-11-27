@@ -1,12 +1,12 @@
 body {
   background-image: linear-gradient(
     to bottom right,
-    #228ab6,
-    #456fae,
-    #8379bb,
-    #c097ce,
-    #e8a3ca,
-    #f09bb3
+    #436b33,
+    #6d9a61,
+    #8db18d,
+    #b59cbd,
+    #7b698a,
+    #5b2f7c
   );
   display: flex;
   background-repeat: no-repeat;
@@ -64,17 +64,18 @@ body {
 
 .list li {
   border-width: 5px;
-  border-color: rgba(48, 20, 228, 0.493);
+  border-color: rgba(31, 90, 32, 0.493);
   border-style: double;
 }
 .list li:hover {
   box-shadow: none;
-  border-color: #d4caea;
+  border-color: #7dba78;
   transition: 0.3s;
 }
 .small-box:hover {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+
 .list li a {
   color: #43197eb3;
   text-shadow: none;

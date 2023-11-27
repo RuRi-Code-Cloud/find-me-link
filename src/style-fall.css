@@ -1,12 +1,11 @@
 body {
   background-image: linear-gradient(
     to bottom right,
-    #228ab6,
-    #456fae,
-    #8379bb,
-    #c097ce,
-    #e8a3ca,
-    #f09bb3
+    #923f01,
+    #8e6c22,
+    #bda273,
+    #576a3f,
+    #1d2710
   );
   display: flex;
   background-repeat: no-repeat;
@@ -48,7 +47,7 @@ body {
 }
 
 .small-box {
-  background-color: #443f6a84;
+  background-color: #576a3f84;
   color: white;
   width: 300px;
   border-radius: 40px;
@@ -64,19 +63,19 @@ body {
 
 .list li {
   border-width: 5px;
-  border-color: rgba(48, 20, 228, 0.493);
+  border-color: rgba(228, 127, 20, 0.493);
   border-style: double;
 }
 .list li:hover {
   box-shadow: none;
-  border-color: #d4caea;
+  border-color: #923f01;
   transition: 0.3s;
 }
 .small-box:hover {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .list li a {
-  color: #43197eb3;
+  color: #576a3fb3;
   text-shadow: none;
   text-decoration: none;
 }

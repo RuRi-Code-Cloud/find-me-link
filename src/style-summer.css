@@ -1,12 +1,12 @@
 body {
   background-image: linear-gradient(
     to bottom right,
-    #228ab6,
-    #456fae,
-    #8379bb,
-    #c097ce,
-    #e8a3ca,
-    #f09bb3
+    #9a0606,
+    #a33261,
+    #cda4b1,
+    #d8af99,
+    #d09b29,
+    #b05007
   );
   display: flex;
   background-repeat: no-repeat;
@@ -48,7 +48,7 @@ body {
 }
 
 .small-box {
-  background-color: #443f6a84;
+  background-color: #a2272784;
   color: white;
   width: 300px;
   border-radius: 40px;
@@ -64,19 +64,19 @@ body {
 
 .list li {
   border-width: 5px;
-  border-color: rgba(48, 20, 228, 0.493);
+  border-color: rgba(228, 20, 20, 0.493);
   border-style: double;
 }
 .list li:hover {
   box-shadow: none;
-  border-color: #d4caea;
+  border-color: #f1994c;
   transition: 0.3s;
 }
 .small-box:hover {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .list li a {
-  color: #43197eb3;
+  color: #7e1940b3;
   text-shadow: none;
   text-decoration: none;
 }
