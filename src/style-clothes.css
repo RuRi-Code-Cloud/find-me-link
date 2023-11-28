@@ -1,8 +1,12 @@
+body {
+  overflow-y: hidden;
+}
+
 .boxes {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
-  height: 570px;
+  height: 550px;
   overflow: auto;
   overflow-x: hidden;
 }
@@ -39,4 +43,26 @@
   border: none;
   margin-bottom: 30px;
   font-size: 25px;
+}
+.list li {
+  border-width: 5px;
+  border-color: rgba(48, 20, 228, 0.493);
+  border-style: double;
+  width: 150px;
+  height: 35px;
+  margin-left: 75px;
+}
+p span {
+  color: blue;
+  font-size: 20px;
+  font-family: "Courgette", "cursive";
+}
+.attention {
+  width: 500px;
+  color: rgba(255, 255, 255, 0.717);
+  font-family: "Courgette", "cursive";
+  rotate: 90deg;
+  position: relative;
+  left: 88%;
+  top: 250px;
 }

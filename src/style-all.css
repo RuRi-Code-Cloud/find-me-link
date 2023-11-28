@@ -60,3 +60,13 @@ a .home:hover {
   font-family: "Courgette", "cursive";
   margin: 20px;
 }
+.list-container {
+  overflow-x: scroll;
+}
+
+.link-body {
+  font-size: 15px;
+}
+.link-head {
+  font-size: 25px;
+}

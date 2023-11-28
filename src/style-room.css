@@ -20,8 +20,6 @@
 }
 
 .img-bed {
-  width: 500px;
-  height: 350px;
   display: inline-block;
   margin: 24px;
   border-radius: 20px;
@@ -35,4 +33,22 @@
   border: none;
   margin: 20px;
   font-size: 25px;
+}
+.list li {
+  border-width: 5px;
+  border-color: rgba(48, 20, 228, 0.493);
+  border-style: double;
+  width: 230px;
+  height: 35px;
+  margin-left: 35px;
+}
+p span {
+  color: blue;
+  font-size: 20px;
+  font-family: "Courgette", "cursive";
+}
+.attention {
+  color: rgba(255, 255, 255, 0.717);
+  margin-top: 70px;
+  font-family: "Courgette", "cursive";
 }
