@@ -1,8 +1,8 @@
 .boxes {
   display: grid;
   grid-template-columns: repeat(10, calc(100% - 40px));
-  grid-template-rows: minmax(450px, 1fr);
-  grid-gap: 20px;
+  grid-template-rows: minmax(480px, 1fr);
+  grid-gap: 10px;
   overflow: scroll;
 }
 .box {
@@ -11,7 +11,6 @@
     rgba(0, 0, 0, 0.09) 10px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
     rgba(255, 255, 255, 0.09) 0px 32px 16px;
   background-color: rgba(240, 248, 255, 0.303);
-  font-size: 40px;
   font-family: "Courgette", "cursive";
   border-radius: 8px;
   align-items: center;
@@ -21,7 +20,7 @@
 
 .img-bed {
   display: inline-block;
-  margin: 24px;
+  margin: 10px;
   border-radius: 20px;
 }
 
@@ -49,6 +48,6 @@ p span {
 }
 .attention {
   color: rgba(255, 255, 255, 0.717);
-  margin-top: 70px;
+  margin-top: 10px;
   font-family: "Courgette", "cursive";
 }

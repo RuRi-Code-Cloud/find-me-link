@@ -27,19 +27,15 @@ body {
   color: #fefefe;
   transition: 0.3s;
 }
-.link-table td,
-.link-table th {
-  border-top: 1px solid #928bf1;
-  padding: 8px;
-}
-.bottom-border {
+.link-head th {
   border-bottom: 1px solid #928bf1;
+  padding: 0 5px;
 }
+
 .link-table th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
   border-top: none;
   color: white;
-  text-align: center;
+}
+.link-table td {
+  border-left: 1px solid #928bf1;
 }

@@ -58,15 +58,45 @@ a .home:hover {
   font-size: 55px;
   color: white;
   font-family: "Courgette", "cursive";
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
-.list-container {
-  overflow-x: scroll;
+.list-container-horizontal {
+  border: 1px solid rgba(255, 255, 255, 0.613);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
 }
-
-.link-body {
+.list-container-vertical {
+  border: 1px solid rgba(255, 255, 255, 0.613);
+  border-radius: 10px;
+  padding: 5px;
+  max-width: 300px;
+  max-height: 420px;
+  margin-top: 40px;
+}
+.link-body-vertical tr th {
   font-size: 15px;
 }
+table .link-table {
+  max-width: 750px;
+  overflow-y: scroll;
+}
+.link-body {
+  font-size: 20px;
+}
+.link-table {
+  overflow-y: scroll;
+  display: block;
+  width: 600px;
+}
+.link-body tr th {
+  font-size: 19px;
+}
 .link-head {
-  font-size: 25px;
+  font-size: 15px;
+}
+.box {
+  max-width: 700px;
+  max-height: 600px;
 }
